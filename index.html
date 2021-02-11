@@ -22,74 +22,89 @@
       <div class="container-fluid">
         <!-- Titre -->
         <div class="d-flex justify-content-center font-pangolin">
-          <h1>Météo locale partout dans le monde</h1>
+          <h1 class="text-center">Météo locale partout dans le monde</h1>
         </div>
         <!-- ./Titre -->
+
         <!-- Nom de la ville -->
         <div class="row m-5">
           <div class="col-md-4"></div>
           <div class="col-md-4 d-flex justify-content-center font-pangolin">
-            <h3 id="city">Ben Arous</h3>
+            <h2 id="city">Ben Arous</h2>
           </div>
           <div class="col-md-1"><i class="fas fa-city fa-2x"></i></div>
           <div class="col-md-3"></div>
         </div>
         <!-- ./Nom de la ville -->
+
         <!-- Affichage météo de la ville -->
-        <div class="row pt-5 mx-5 px-5 d-flex justify-content-center">
+        <div class="row pt-5 d-flex justify-content-center">
           <!-- Temperature -->
-          <div class="col-md-4 py-4">
-            <div class="row">
-              <div
-                class="col-md-10 d-flex justify-content-center font-pangolin"
-              >
-                <h3>Température</h3>
+          <div
+            class="col-md-4 py-3 d-flex justify-content-center font-pangolin"
+          >
+            <div id="cardi" class="card pt-3" style="width: 18rem">
+              <div class="card-body text-center">
+                <div class="row">
+                  <div class="col-md-8">
+                    <h5 class="card-title">Température</h5>
+                  </div>
+                  <div class="col-md-4">
+                    <i class="fas fa-temperature-low fa-2x"></i>
+                  </div>
+                </div>
+                <h6 class="card-subtitle py-3 mb-2 text-muted">
+                  <span id="temperature">XX.X </span> °C
+                </h6>
               </div>
-              <div class="col-md-2 d-flex justify-content-center">
-                <i class="fas fa-temperature-low fa-2x"></i>
-              </div>
-            </div>
-            <div class="row d-flex justify-content-center font-pangolin py-3">
-              <h3><span id="temperature">XX.X </span> °C</h3>
             </div>
           </div>
           <!-- ./Temperature -->
           <!-- Pression -->
-          <div class="col-md-4 py-4">
-            <div class="row">
-              <div
-                class="col-md-10 d-flex justify-content-center font-pangolin"
-              >
-                <h3>Pression</h3>
+          <div
+            class="col-md-4 py-3 d-flex justify-content-center font-pangolin"
+          >
+            <div id="cardi" class="card pt-3" style="width: 18rem">
+              <div class="card-body text-center">
+                <div class="row">
+                  <div class="col-md-8">
+                    <h5 class="card-title">Pression</h5>
+                  </div>
+                  <div class="col-md-4">
+                    <i class="fas fa-wind fa-2x"></i>
+                  </div>
+                </div>
+                <h6 class="card-subtitle py-3 mb-2 text-muted">
+                  <span id="pressure">XX.X </span> hPa
+                </h6>
               </div>
-              <div class="col-md-2 d-flex justify-content-center">
-                <i class="fas fa-wind fa-2x"></i>
-              </div>
-            </div>
-            <div class="row d-flex justify-content-center font-pangolin py-3">
-              <h3><span id="pressure">XX.X </span> hPa</h3>
             </div>
           </div>
           <!-- ./Pression -->
           <!-- Humidité -->
-          <div class="col-md-4 py-4">
-            <div class="row">
-              <div
-                class="col-md-10 d-flex justify-content-center font-pangolin"
-              >
-                <h3>Humidité</h3>
+          <div
+            class="col-md-4 py-3 d-flex justify-content-center font-pangolin"
+          >
+            <div id="cardi" class="card pt-3" style="width: 18rem">
+              <div class="card-body text-center">
+                <div class="row">
+                  <div class="col-md-8">
+                    <h5 class="card-title">Humidité</h5>
+                  </div>
+                  <div class="col-md-4">
+                    <i class="fas fa-tint fa-2x"></i>
+                  </div>
+                </div>
+                <h6 class="card-subtitle py-3 mb-2 text-muted">
+                  <span id="humidity">XX.X </span> %
+                </h6>
               </div>
-              <div class="col-md-2 d-flex justify-content-center">
-                <i class="fas fa-tint fa-2x"></i>
-              </div>
-            </div>
-            <div class="row d-flex justify-content-center font-pangolin py-3">
-              <h3><span id="humidity">XX.X </span> %</h3>
             </div>
           </div>
           <!-- ./Humidité -->
         </div>
         <!-- ./Affichage météo de la ville -->
+
         <!-- Choisir la ville -->
         <div class="row m-5">
           <div class="col-md-12 d-flex justify-content-center">

@@ -32,7 +32,7 @@ function recievedata(city) {
         document.querySelector("#pressure").textContent = press;
         document.querySelector("#humidity").textContent = hum;
       } else {
-        alert("Oups! Un problème est intervenu");
+        alert("Oups! Un problème est intervenu réessayer plus tard.");
       }
     }
   };
